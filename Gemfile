@@ -1,2 +1,2 @@
 source 'https://rubygems.org'
-gem "tinyrails"
+gem "tinyrails", path: '/Users/austn/Desktop/GitProjects/tinyrails'
