@@ -1,13 +1,15 @@
 PATH
   remote: /Users/austn/Desktop/GitProjects/tinyrails
   specs:
-    tinyrails (0.0.3)
+    tinyrails (0.0.4)
+      erubis
       rack (~> 3.2)
       webrick
 
 GEM
   remote: https://rubygems.org/
   specs:
+    erubis (2.7.0)
     rack (3.2.1)
     rackup (2.2.1)
       rack (>= 3)

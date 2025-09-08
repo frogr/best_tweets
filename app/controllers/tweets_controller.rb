@@ -1,6 +1,5 @@
 class TweetsController < Tinyrails::Controller
   def a_tweet
-    "There is nothing either good or bad " + 
-      "but thinking makes it so."
+    render :a_tweet, :noun => :winking
   end
 end
