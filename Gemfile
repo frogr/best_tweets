@@ -1,2 +1,3 @@
 source 'https://rubygems.org'
-gem "tinyrails", path: '/Users/austn/Desktop/GitProjects/tinyrails'
+gem "tinyrails", path: "../tinyrails"
+gem "rackup"

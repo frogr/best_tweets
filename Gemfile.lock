@@ -1,7 +1,7 @@
 PATH
   remote: /Users/austn/Desktop/GitProjects/tinyrails
   specs:
-    tinyrails (0.0.2)
+    tinyrails (0.0.3)
       rack (~> 3.2)
       webrick
 
@@ -9,6 +9,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     rack (3.2.1)
+    rackup (2.2.1)
+      rack (>= 3)
     webrick (1.9.1)
 
 PLATFORMS
@@ -16,6 +18,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rackup
   tinyrails!
 
 BUNDLED WITH
