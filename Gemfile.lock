@@ -3,6 +3,7 @@ PATH
   specs:
     tinyrails (0.0.4)
       erubis
+      multi_json
       rack (~> 3.2)
       webrick
 
@@ -10,6 +11,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     erubis (2.7.0)
+    multi_json (1.17.0)
     rack (3.2.1)
     rackup (2.2.1)
       rack (>= 3)
