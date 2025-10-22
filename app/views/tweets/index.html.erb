@@ -1,11 +1,11 @@
-<% tweets.each do |tweet| %>
+<% tweets.each do |twt| %>
   <p>
-    &quot;<%= tweet["tweet"] %>&quot;
+    &quot;<%= twt["tweet"] %>&quot;
 
-    <br/> &ndash; <%= tweet["author"] %>
+    <br/> &ndash; <%= twt["author"] %>
   </p>
 
   <p>
-    Profile: <a>https://x.com/<%= tweet["profile_name"] %>
+    Profile: <a>https://x.com/<%= twt["profile_name"] %>
   </p>
 <% end %>
