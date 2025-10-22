@@ -1,0 +1,11 @@
+<% obj.each do |object| %>
+  <p>
+    &quot;<%= object["tweet"] %>&quot;
+
+    <br/> &ndash; <%= object["author"] %>
+  </p>
+
+  <p>
+    Profile: <a>https://x.com/<%= object["profile_name"] %>
+  </p>
+<% end %>
