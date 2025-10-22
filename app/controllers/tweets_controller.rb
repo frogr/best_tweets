@@ -7,8 +7,13 @@ class TweetsController < BaseController
     render :tweet, :obj => FileModel.find(1)
   end
 
+  def show
+    @tweet = FileModel.find(params["id"])
+    @ua = request.user_agent
+  end
+
   def index
-    render :index, :tweets => FileModel.all
+    @tweets = FileModel.all
   end
 
   def create
@@ -29,7 +34,6 @@ class TweetsController < BaseController
     new_hash = MultiJson.load(body)
     tweet = FileModel.find(get_id_from_rack)
     tweet.update(new_hash)
-    "Tweet Updated!"
   end
 
   def austin_tweets
